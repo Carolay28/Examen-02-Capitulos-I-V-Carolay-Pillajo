@@ -19,7 +19,7 @@ import os
 
 logging.basicConfig(
     level=logging.INFO,
-    format=f"[%(asctime)s][%(levelname)s][{os.environ.get('USERNAME')}] %(message)s",
+    format="[%(asctime)s][%(levelname)s] %(message)s",
     stream=stdout,
     datefmt="%m-%d %H:%M:%S",
 )
